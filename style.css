@@ -1,0 +1,132 @@
+@font-face {
+   font-family: "Raleway-Black";
+   src: url ("P2_Jean_Fabrice_Zara_code - Copie/booki_html_css/fonts/static/Raleway-Black.ttf") format ("ttf");
+}
+
+body{
+
+font-family: "Raleway-Black";
+display: flex;
+flex-direction:column;
+align-content: space-between;
+
+}
+
+
+
+header{ 
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   margin-left: 25px;
+   
+}
+   h2{
+      font-weight: lighter;
+   }
+
+a:link{
+   text-decoration:none;
+}
+
+
+
+
+
+
+nav{ 
+   display: flex;
+   flex-direction: row;
+   align-items: center; 
+   color: black;
+   }
+
+
+
+   .lien_menu{
+      display: flex;
+      display: inline-block;
+      flex-direction: row;
+      justify-content: space-around;   
+      padding: 50px;
+   }
+
+         .lien_menu:hover{
+            border-top: 2px #0065fc solid;
+            color: #DEEBFF;
+         
+         }
+
+
+ul li{
+   display: block;
+   flex-direction: row;
+   list-style-type: none;
+}
+         #filtres{
+         display: flex;
+         display: inline-block;
+         flex-direction: row;
+         align-items: center;
+         justify-content: start;
+      }
+
+         .filtres_themes{
+            display: flex;
+            flex-direction: row;
+            display: inline-block;
+            border: 1px #F2F2F2 solid;
+            border-radius:  50px;
+            
+            max-width:10%;
+            max-height: 15%;
+            min-height: 10%;
+            min-width: 10%;
+         }
+
+               .icones_themes{
+                  border:1px #0065fc solid;
+                  border-radius: 100%;
+                  max-width: 20%;
+                  max-height: 20%
+               }
+
+footer{ 
+   background-color: #F2F2F2;
+   display:flex;
+   flex-direction:row ;
+   justify-content:space-around ;
+}
+
+
+         #a_propos{ 
+         display:  flex;
+         flex-direction: column;
+         align-items: flex-start;
+         justify-content: center;
+
+         }
+
+         #nos_hebergements{ 
+         display:  flex;
+         flex-direction: column;
+         align-items: flex-start;
+         justify-content: center;
+         }
+
+         #assistance{ 
+         display:  flex;
+         flex-direction: column;
+         align-items: flex-start;
+         justify-content: space-around;
+
+         }
+
+
+ 
+#section{
+   border: 1px #F2F2F2 solid;
+   height: 500x;
+
+}
