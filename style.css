@@ -94,6 +94,7 @@ ul li{
 
 footer{ 
    background-color: #F2F2F2;
+   color: black;
    display:flex;
    flex-direction:row ;
    justify-content:space-around ;
