@@ -97,29 +97,15 @@ footer{
 }
 
 
-         #a_propos{ 
+
+
+         .bloc_footer{ 
          display:  flex;
          flex-direction: column;
-         align-items: flex-start;
-         justify-content: center;
+             
+       }
 
-         }
-
-         #nos_hebergements{ 
-         display:  flex;
-         flex-direction: column;
-         align-items: flex-start;
-         justify-content: center;
-         }
-
-         #assistance{ 
-         display:  flex;
-         flex-direction: column;
-         align-items: flex-start;
-         justify-content: space-around;
-
-         }
-
+         
 
  
 #section{
