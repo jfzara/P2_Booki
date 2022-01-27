@@ -50,8 +50,7 @@ nav{
 
          .lien_menu:hover{
             border-top: 2px #0065fc solid;
-            color: #DEEBFF;
-         
+                   
          }
 
 
@@ -64,10 +63,10 @@ footer{
    color: black;
    display:flex;
    flex-direction:row ;
-   justify-content:space-around ;
+   justify-content:space-between ;
    align-items: flex-start;
    margin-top: 100px;
-   padding: 30px;
+   padding-right: 510px;
 }
 
 
