@@ -5,7 +5,7 @@ body {
    font-family: "Raleway";
    display: flex;
    flex-direction: column;
-   align-content: space-between;
+   align-content: flex-start;
   }
 
 a {
@@ -44,14 +44,52 @@ nav {
    padding: 50px;
 }
 
+
 .ancre_menu:hover {
    border-top: 2px #0065fc solid;
 }
 
 
+/*--------ARTICLE + SECTIONS--------*/
+
+article {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: baseline;
+   border: 1px rgb(255, 132, 132) solid;
+   border-radius: 20px;
+   padding-right: 25px;
+   height: 200px;
+   background: #F2F2F2;
+   margin-bottom: 30px;
+
+}
+
+#hebergements {
+   margin: 10px;
+   border-radius: 20px;
+   flex-grow: 2;
+   max-width: 60%;
+}
+
+.#populaires {
+   border: 5px green solid;
+   border-radius: 20px;
+}
+
+#activites {
+   display: flex;
+   flex-direction: row;
+   border: 1px grey solid;
+   border-radius: 20px;
+   height: 100px;
+}
+.activites_bloc1, .activites_bloc2 {
+
+}
+
 /*--------FOOTER--------*/
-
-
 footer { 
    background-color: #F2F2F2;
    color: black;
@@ -87,7 +125,7 @@ header {
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
-   justify-content: space-between;
+   justify-content:center;
    align-items: center;
 }
 
@@ -99,6 +137,12 @@ nav {
    /* margin-bottom: 20px; */
 }  
 
+#logo_booki {
+   padding-left: 83px;
+}
+#ancre_hebergement_menu {
+   padding-left: 0;
+}
 
 footer {
    display: flex;
