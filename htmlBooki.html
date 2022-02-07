@@ -19,8 +19,6 @@
       
       <img src="ImagesBooki\logo\Booki.png" alt="logo_booki" id="logo_booki">
       
-<!--image mise dans div pour garder menu et logo séparés en responsive mobile-->
-
       <nav >
       
             <a href= "#section_hebergements" class="ancre_menu" id= "ancre_hebergement_menu"> Hébergements</a>
@@ -33,100 +31,113 @@
        
    </header> 
   
-   <p>
-      <h1> Trouvez votre hébergement pour des vacances de rêve </h1>
+   <main>
+
       
-      <h2> En plein centre ville ou en pleine nature </h2>
-   </p>
-   
-
-
-   <form method="post" action="#">
-      <p>
+         <h1 class="titres_accueil"> 
+            
+            <span> Trouvez votre hébergement </span>
+            <span> pour des vacances de rêve </span>
          
-         <select name="Ville,Pays" id="">
-            <option value=""></option>
+         </h1>
+         
+         <h2 class="titres_accueil"> 
+            
+            En plein centre ville ou en pleine nature
+            
+         </h2>
+   
+      
+
+
+      <form method="post" action="#" id="formulaire">
+         
+         <img src="#" alt="#" id="icone_localisation">
+         
+         <select name="Ville,Pays" id="texte_formulaire">
+            <option value="">Marseille, France</option>
 
          </select>
-         <button>Rechercher</button>
-      </p>
-   </form>
-
-
-
-   <article> 
-    
-      <section id="hebergements">
-
-         <h3>Hébergements à Marseille</h3>
          
-
-         <div> </div> <!--chaque div = une carte d'hébergement, + background-image-->
+         <button id="bouton_formulaire">Rechercher</button>
          
-         <h3>Afficher plus</h3>
+      </form>
+
+
+
+      <section id="section_container"> 
+      
+         <section id="hebergements">
+
+            <h3>Hébergements à Marseille</h3>
+            
+
+            <div> </div> <!--chaque div = une carte d'hébergement, + background-image-->
+            
+            <h3>Afficher plus</h3>
+
+         </section>
+            
+            
+         <section id="populaires">
+
+            <h3>Les plus populaires</h3>
+
+            <img src="" alt=""> <!--icône "populaires"-->
+            
+            <div> </div> <!--chaque div = une carte d'hébergement, + background-image-->
+
+         </section>
 
       </section>
-         
-         
-      <section id="populaires">
 
-         <h3>Les plus populaires</h3>
 
-         <img src="" alt=""> <!--icône "populaires"-->
-         
-         <div> </div> <!--chaque div = une carte d'hébergement, + background-image-->
+      <section class="activites_bloc1">
 
+         <h3>Activités à Marseille</h3>
+            
+
+         <div> </div> <!--chaque div = à une activité, + background-image-->
+            
       </section>
 
-   </article>
+      <section class="activites_bloc2">
 
+         <h3>Activités à Marseille</h3>
+            
 
-   <section class="activites_bloc1">
+         <div> </div> <!--chaque div = à une activité, + background-image-->
+            
+      </section>
 
-      <h3>Activités à Marseille</h3>
-         
-
-      <div> </div> <!--chaque div = à une activité, + background-image-->
-         
-   </section>
-
-   <section class="activites_bloc2">
-
-      <h3>Activités à Marseille</h3>
-         
-
-      <div> </div> <!--chaque div = à une activité, + background-image-->
-         
-   </section>
-
-
+   </main>
    
 
 
    <footer>
 
-      <div class= "blocs_footer">
+      <div class= "blocs_footer" id= "a_propos"> 
             
-         <h3>A propos</h3>
+         <h3 class="titres_footer">A propos</h3>
          <div> <a href="#" class= "ancres_footer"> Fonctionnement du site </a> </div>
          <div> <a href="#" class= "ancres_footer"> Conditions générales de vente </a> </div>
          <div> <a href="#" class= "ancres_footer"> Données et confidentialité </a> </div>
                   
       </div>
 
-      <div class= "blocs_footer">
+      <div class= "blocs_footer" id= "nos_hebergements">
             
-         <h3>Nos hébergements</h3>
-         <div><a href="#" class= "ancres_footer"> Charte qualité </a></div>
-         <div><a href="#" class= "ancres_footer"> Soumettre votre hôtel </a></div>
+         <h3 class="titres_footer">Nos hébergements</h3>
+         <div> <a href="#" class= "ancres_footer"> Charte qualité </a> </div>
+         <div> <a href="#" class= "ancres_footer"> Soumettre votre hôtel </a> </div>
 
       </div>
 
-      <div class= "blocs_footer">
+      <div class= "blocs_footer" id= "assistance">
             
-         <h3>Assistance</h3>
-         <div ><a href="#" class= "ancres_footer"> Centre d'aide </a></div>
-         <div ><a href="#" class= "ancres_footer"> Nous contacter </a></div>
+         <h3 class="titres_footer">Assistance</h3>
+         <div > <a href="#" class= "ancres_footer"> Centre d'aide </a> </div>
+         <div > <a href="#" class= "ancres_footer"> Nous contacter </a> </div>
       
       </div>
 
