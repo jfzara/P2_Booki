@@ -1,12 +1,40 @@
 
+/*--------GLOBAL--------*/
+
 body {
    font-family: "Raleway";
+   font-size: 80%;
+   font-weight: 400;
    display: flex;
    flex-direction: column;
-   align-content: space-between;
+   align-content: center;
+   
+}
+
+a {
+   text-decoration: none;
+   color: black;
+   font-size: 14px;
+  
+} /*ancres header et footer*/
+
+ h1 {
+   font-size: 16px;
+}
+
+ h2 {
+   font-weight: 400;
+   font-size: 15px;
+}
+
+ h3 {
+font-weight: bold;
+font-size: 14px;
+
 }
 
 
+/*--------HEADER--------*/
 
 header { 
    display: flex;
@@ -27,6 +55,11 @@ a {
    color: black;
  }
 
+ 
+#logo_booki {
+   padding-inline: 30px;
+}
+
 
 nav { 
    display: flex;
@@ -36,18 +69,106 @@ nav {
 
 
 
-.lien_menu {
+.ancre_menu {
    display: flex;
    display: inline-block;
    flex-direction: row;
    justify-content: space-around;   
    padding: 50px;
+
 }
 
 
 .lien_menu:hover {
    border-top: 2px #0065fc solid;
+   border-top: 2px white solid;
+   border-bottom: 2px white solid;
 }
+
+
+.ancre_menu:hover {
+   border-top: 2px #0065fc solid;
+   color:#0065fc;
+
+}
+
+
+/*--FORMULAIRE--*/
+
+
+#formulaire {
+   display: flex;
+   flex-direction: row;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+#icone_localisation {
+   border: 1px white solid;
+   border-radius: 15px 0 0 15px;
+   background-color: lightgrey;
+   width: fit-content;
+}
+
+#bouton_formulaire {
+  background-color: #0065fc;
+  color: white;
+  border-radius: 0 15px 15px 0;
+  border-color: white;
+  height: 40px;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 14px;
+}
+#texte_formulaire {
+   border: 1px white solid;
+   font-family: "Raleway";
+   font-weight: 700;
+   font-size: 14px;
+}
+
+
+/*--------ARTICLE + SECTIONS--------*/
+
+
+#section_container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: baseline;
+   border: 1px #F2F2F2 solid;
+   border-radius: 20px;
+   padding-right: 25px;
+   height: 200px;
+   background: #F2F2F2;
+   margin-bottom: 30px;
+
+}
+
+#hebergements {
+   margin: 10px;
+   border-radius: 20px;
+   flex-grow: 2;
+   max-width: 60%;
+}
+
+#populaires {
+   
+}
+
+#activites {
+   display: flex;
+   flex-direction: row;
+   border: 1px grey solid;
+   border-radius: 20px;
+   height: 100px;
+}
+
+/*.activites_bloc1, .activites_bloc2 {}*/
+
+
+
+/*--------FOOTER--------*/
 
 
 footer { 
@@ -58,7 +179,8 @@ footer {
    justify-content: space-between ;
    align-items: flex-start;
    margin-top: 100px;
-   padding-right: 510px;
+   padding-right: 363px;
+   padding-left: 30px;
 }
 
 
@@ -69,13 +191,141 @@ footer {
 }
 
 
+
+   
+
+
+
+
 .ancres_footer {
    line-height: 33px;
 }
 
     
-
 #section {
    border: 1px #F2F2F2 solid;
    height: 500px;
 }
+
+
+/*--------RESPONSIVE MOBILE--------*/
+
+
+
+@media screen and (max-width: 768px) {
+
+body {
+   display: flex;
+   flex-direction: column;
+   margin-left: 0;
+}
+
+header {
+   min-width: 100%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content:center;
+   align-items: center;
+   
+}
+
+nav {   
+   padding-left: 20px;
+   
+}  
+
+.ancre_menu {
+    
+   padding-bottom: 20px;
+   border-top: 2px white solid;
+   border-bottom: 2px white solid;
+}
+
+.ancre_menu:hover {
+   border-top: 2px white solid;
+   border-bottom: 2px #0065fc solid;
+   color:#0065fc;
+}
+
+#logo_booki {
+   padding-left: 83px;
+}
+
+#ancre_hebergement_menu {
+   padding-left: 0;
+}
+
+
+/*--FORMULAIRE--*/
+
+
+#formulaire {
+   display: flex;
+   flex-direction: row;
+   margin-left:22%;
+   margin-right: 20%;
+
+}
+
+
+#div_titres_accueil {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.titres_accueil {
+   min-width: 304px;
+   position:-webkit-sticky;   
+   margin-left: 22%;
+   margin-right: 20%;
+   
+}
+
+h1 { 
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: baseline;
+   flex-wrap: nowrap;
+   font-size: 18px;
+   padding-top: 20px;
+     
+}
+
+h2 {
+   font-size: 13px;
+}
+
+
+footer {
+   display: flex;
+   flex-direction: column;  
+   justify-content: center;
+   align-items: flex-start;
+   padding-right:45px;  
+   padding-left: 20px;
+}
+
+
+
+.blocs_footer {
+   min-width:250px;
+  
+}
+
+.titres_footer {
+   min-width:250px;
+   padding-right:45px;
+}
+
+@media screen and  (min-width: 768px) and (max-width: 992px) {
+
+
+   
+}
+
+
