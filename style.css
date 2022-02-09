@@ -4,7 +4,7 @@
 body {
    font-family: "Raleway";
    font-size: 75%;
-   font-weight: 400;
+   font-weight: 500;
    display: flex;
    flex-direction: column;
    align-content: center;
@@ -133,24 +133,75 @@ nav {
    flex-direction: row;
    border: 1px grey solid;
    border-radius: 20px;
-   margin-right: 2%;
-   margin-left: 2%;
-   padding-left: 15px;
-   padding-right: 15px;
-   height: 500px;
+   height: 600px;
    background: #F2F2F2;
-   margin-bottom: 30px;
-
+   
 }
 
 #hebergements {
    display: flex;
    flex-direction: column;
+   justify-content: space-around;
    border: 1px grey solid;
    border-radius: 20px;
    width:68%;
    padding: 15px;
    margin-right: 15px;
+}
+
+
+#galerie_cartes_hebergement {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}
+
+.cartes_hebergement {
+   height: 120px;
+   width:30%;
+   border: 1px black solid;
+   border-radius: 20px;
+   margin: 20px;
+   
+}
+
+.nom_hebergement {
+   font-weight: bold;
+}
+.tarif_nuit {
+font-weight: 400;
+}
+
+
+#hebergement1{
+background-image: url(ImagesBooki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+
+
+#hebergement2{
+   background-image: url(ImagesBooki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+}
+
+
+#hebergement3{
+   background-image: url(ImagesBooki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+}
+
+
+#hebergement4{
+   background-image: url(ImagesBooki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+}
+
+
+#hebergement5{
+   background-image: url(ImagesBooki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+}
+
+
+#hebergement6{
+   background-image: url(ImagesBooki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
 }
 
 
@@ -161,17 +212,44 @@ nav {
    border-radius: 20px;
    width:28%;
    
+   
 }
-
-.carte_hebergement {
-   height: 30px;
-   width:30px;
-   border: 1px black solid;
-   border-radius: 20px;
+#en_tete_populaires {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
    
 }
 
 
+#galerie_cartes_populaires {
+  
+}
+
+.cartes_populaires {
+   height: 15%;
+   width: 60%;
+   border: 1px black solid;
+   border-radius: 20px;
+   margin: 20px;
+   position: relative;
+   left: 5%;
+   right: 5% ;
+}
+
+
+#carte_populaire1{
+   background-image: url(ImagesBooki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+}
+
+#carte_populaire2{
+   background-image: url(ImagesBooki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+}
+   
+#carte_populaire3{
+   background-image: url(ImagesBooki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+}
+      
 #activites {
    display: flex;
    flex-direction: row;
