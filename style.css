@@ -99,12 +99,13 @@ nav {
    margin-bottom: 30px;
 }
 
-#icone_localisation {
+/*.fa-solid {
    border: 1px white solid;
    border-radius: 15px 0 0 15px;
    background-color: lightgrey;
    width: fit-content;
 }
+*/
 
 #bouton_formulaire {
   background-color: #0065fc;
@@ -127,30 +128,49 @@ nav {
 /*--------ARTICLE + SECTIONS--------*/
 
 
-#section_container {
+#container {
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
-   align-items: baseline;
-   border: 1px #F2F2F2 solid;
+   border: 1px grey solid;
    border-radius: 20px;
-   padding-right: 25px;
-   height: 200px;
+   margin-right: 2%;
+   margin-left: 2%;
+   padding-left: 15px;
+   padding-right: 15px;
+   height: 500px;
    background: #F2F2F2;
    margin-bottom: 30px;
 
 }
 
 #hebergements {
-   margin: 10px;
+   display: flex;
+   flex-direction: column;
+   border: 1px grey solid;
    border-radius: 20px;
-   flex-grow: 2;
-   max-width: 60%;
+   width:68%;
+   padding: 15px;
+   margin-right: 15px;
 }
 
+
 #populaires {
+   display: flex;
+   flex-direction: column;
+   border: 1px grey solid;
+   border-radius: 20px;
+   width:28%;
    
 }
+
+.carte_hebergement {
+   height: 30px;
+   width:30px;
+   border: 1px black solid;
+   border-radius: 20px;
+   
+}
+
 
 #activites {
    display: flex;
