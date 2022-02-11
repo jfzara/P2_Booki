@@ -24,15 +24,18 @@ a {
 }
 
  h2 {
-   font-weight: 500;
+   font-weight: bold;
    font-size: 15px;
    width: 100%;
 }
 
  h3 {
-font-weight: bold;
 font-size: 14px;
+font-weight: bold;
+}
 
+#titre2_accueil {
+   font-weight: normal;
 }
 
 
@@ -49,7 +52,7 @@ header {
 
 
 h2 {
-   font-weight: lighter;
+   
 }
 
 
@@ -131,22 +134,25 @@ nav {
 #container {
    display: flex;
    flex-direction: row;
-   border: 1px grey solid;
+   justify-content: space-between;
    border-radius: 20px;
-   height: 600px;
-   background: #F2F2F2;
-   
+   background: white;
+   min-height: 750px;
+   margin-bottom: 40px;
+      
 }
 
 #hebergements {
    display: flex;
    flex-direction: column;
-   justify-content: space-around;
-   border: 1px grey solid;
+   justify-content: space-between;
    border-radius: 20px;
-   width:68%;
-   padding: 15px;
-   margin-right: 15px;
+   width:65%;
+   margin-right: 15px; /*--frontière avec section" populaires"*/
+   padding-left: 50px;
+   padding-right: 50px;
+   background: #F2F2F2;
+
 }
 
 
@@ -154,112 +160,223 @@ nav {
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   justify-content: center;
-   
+   justify-content: space-between;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   height: 100%;
+  
 }
 
 .cartes_hebergement {
-   height: 120px;
-   width:30%;
-   border: 1px black solid;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   width:28%;
+   min-height: 150px;
+   border: 5px white solid;
    border-radius: 20px;
-   margin: 20px;
-   
+   margin-bottom: 30px;
+  
+  
+}
+
+.infos_hebergement {
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   height: 35%;
+   width: 100%;
+   padding-bottom: 4%;
+  
 }
 
 .nom_hebergement {
    font-weight: bold;
 }
-.tarif_nuit {
-font-weight: 400;
+
+.tarifs {
+   font-weight: 400;
 }
 
+.icones_etoiles {
+   display: flex;
+   flex-direction: row;
+
+}
 
 #hebergement1{
-background-image: url(ImagesBooki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+   background-image: url(ImagesBooki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+
 }
 
 
 #hebergement2{
-   background-image: url(ImagesBooki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+  background-image: url(ImagesBooki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
 #hebergement3{
-   background-image: url(ImagesBooki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+  background-image: url(ImagesBooki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
 #hebergement4{
-   background-image: url(ImagesBooki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+  background-image: url(ImagesBooki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
 #hebergement5{
-   background-image: url(ImagesBooki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+  background-image: url(ImagesBooki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
 #hebergement6{
-   background-image: url(ImagesBooki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+  background-image: url(ImagesBooki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
 #populaires {
    display: flex;
    flex-direction: column;
-   border: 1px grey solid;
+   border: 1px white solid;
    border-radius: 20px;
-   width:28%;
-   
-   
+   width: 30%;
+   padding: 5px;
+   background: #F2F2F2;
+
 }
 #en_tete_populaires {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   
+   font-weight: bold;
+   margin-left: 50px;
 }
 
 
 #galerie_cartes_populaires {
-  
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   height: 100%;
 }
 
 .cartes_populaires {
-   height: 15%;
-   width: 60%;
-   border: 1px black solid;
+   height: 150px;
+   display: flex;
+   flex-direction: row-reverse;
+   border: 5px white solid;
    border-radius: 20px;
-   margin: 20px;
+   margin-right: 55px;
+   margin-bottom: 25px;
    position: relative;
    left: 5%;
    right: 5% ;
 }
 
-
-#carte_populaire1{
-   background-image: url(ImagesBooki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+.infos_populaires {
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   border-radius: 0 20px 20px 0;
+   width: 65%;
+   padding-left: 5%;
+   
 }
 
-#carte_populaire2{
+.tarifs_populaires {
+   
+   }
+
+.ic_etoiles_populaires {
+   display: flex;
+   justify-content: baseline;
+   position: relative;
+   bottom: -20%;
+
+}
+
+
+#carte_populaires1{
+   background-image: url(ImagesBooki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+   background-size: 50%;
+   background-repeat: no-repeat;
+
+}
+
+#carte_populaires2{
    background-image: url(ImagesBooki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+   background-size: 50%;
+   background-repeat: no-repeat;
+
 }
    
-#carte_populaire3{
-   background-image: url(ImagesBooki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+#carte_populaires3{
+  background-image: url(ImagesBooki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+
 }
-      
-#activites {
+ 
+
+/*--------ACTIVITES--------*/    
+
+
+#container_activites {
    display: flex;
-   flex-direction: row;
+   border: 1px grey solid;
+   border-radius: 20px;
+   
+}
+#titre_activites {
+width: 100%;
+}
+
+#activites_bloc1 {
+   display: flex;
+   flex-direction:row;
+   flex-wrap: wrap;
+   border: 1px grey solid;
+   border-radius: 20px;
+   height: 143px;
+   width: 50%;
+
+}
+
+#activites_bloc2 {
+   display: flex;
+   flex-direction:row;
+   flex-wrap: wrap;
    border: 1px grey solid;
    border-radius: 20px;
    height: 100px;
+   width: 50%;
+   padding-top: 43px;
 }
 
-/*.activites_bloc1, .activites_bloc2 {}*/
+.carte_activites {
+   border: 5px red solid;
+   margin-bottom: 5px;
+   width: 50%;
+   
+}
 
+.carte_verticale {
+   flex-grow: 2;
+
+}
 
 
 /*--------FOOTER--------*/
@@ -284,15 +401,9 @@ footer {
    justify-content: space-around; 
 }
 
-
-
-   
-
-
-
-
 .ancres_footer {
    line-height: 33px;
+   font-weight: 400;
 }
 
     
