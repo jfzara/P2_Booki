@@ -3,7 +3,7 @@
 
 <head >
    
-   <title>Booki3</title>
+   <title> Booki3 </title>
    <link rel="stylesheet" type="text/css" href="style.css">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" />
    <script src="https://kit.fontawesome.com/82a065eaab.js" crossorigin="anonymous"></script>
@@ -22,11 +22,11 @@
       
       <nav >
       
-            <a href= "#section_hebergements" class="ancre_menu" id= "ancre_hebergement_menu"> Hébergements</a>
+            <a href= "#section_hebergements" class="ancre_menu" id= "ancre_hebergement_menu"> Hébergements </a>
 
             <!--attention, ce lien renvoie vers la section Hébergements en bas, donc une ancre, idem pour le lien "Activités" en bas-->
                   
-            <a href= "#activites_Marseille" class="ancre_menu"> Activités</a>  
+            <a href= "#activites_Marseille" class="ancre_menu"> Activités </a>  
       
       </nav>
       
@@ -37,13 +37,13 @@
    <main>
 
       
-      <h1 > 
+      <h1> 
             
          Trouvez votre hébergement pour des vacances de rêve 
      
      </h1>
      
-     <h2 id="titre2_accueil" > 
+     <h2 id="titre2_accueil"> 
         
         En plein centre ville ou en pleine nature
         
@@ -52,23 +52,82 @@
       
       <form method="post" action="#" id="formulaire">
          
-         <i class="fa-solid fa-location-dot"></i>
+         <i class="fa-solid fa-location-dot" id="icone_localisation"></i>
          
          
          
          <select name="Ville,Pays" id="texte_formulaire">
          
-            <option value="">Marseille, France</option>
+            <option value=""> Marseille, France </option>
 
          </select>
          
-         <button id="bouton_formulaire">Rechercher</button>
+         <button id="bouton_formulaire"> Rechercher </button>
          
       </form>
 
+      <i class="fa-solid fa-circle-info"></i>
+
+      <p> Plus de 500 logements sont disponibles dans cette ville </p>
+      
+      <div id="container_filtres">
+
+         <h3 id="titre_filtres"> Filtres </h3>
+
+         <div class="themes" id="economiques">
+            
+            <div class="icones_themes">
+              
+               <i class="fa-solid fa-money-bill-simple-wave"></i>
+            
+            </div>                
+               
+            <h3> Économiques </h3>
+        
+         </div>
+
+         <div class="themes" id="familial">
+            
+            <div class="icones_themes">
+               
+               <i class="fa-solid fa-family"></i>
+            
+            </div>
+            
+            <h3> Familial </h3>
+         
+         </div>
+
+         <div class="themes"  id="romantique">  
+           
+            <div class="icones_themes">
+             
+               <i class="fa-solid fa-heart"></i>
+            
+            </div>
+           
+            <h3> Romantique </h3>
+         
+         </div>
+
+         <div class="themes"  id="animaux_autorisés">
+            
+            <div class="icones_themes">
+            
+               <i class="fa-solid fa-dog"></i>
+            
+            </div>
+           
+            <h3> Animaux autorisés</h3>
+         
+         </div>
+
+      </div>
 
 
-      <section id="container"> 
+
+
+      <section id="container_hebergements_populaires"> 
       
          <section id="hebergements">
             
@@ -76,14 +135,14 @@
            
             <div id="galerie_cartes_hebergement"><!--DEBUT DE LA GALERIE DE CARTES "HEBERGEMENTS"-->
 
-               <article class="cartes_hebergement" id="hebergement1"> 
+               <a href="#" class="cartes_hebergement" id="hebergement1"> 
                   
                   <div class="infos_hebergement">
                  
                      <h2> Auberge La Cannebière </h2>
+                    
                      <h3 class= "tarifs"> Nuit à partir de 25€ </h3> 
                
-                     
                      <div class="icones_etoiles">
                            <i class="fa-solid fa-star"></i>
                            <i class="fa-solid fa-star"></i>
@@ -95,13 +154,14 @@
 
                   </div>
 
-               </article>
+               </a>
 
-               <article class="cartes_hebergement" id="hebergement2">
+               <a href="#" class="cartes_hebergement" id="hebergement2">
                   
                   <div class="infos_hebergement">
 
                      <h2> Hôtel du Port </h2>
+                    
                      <h3 class= "tarifs"> Nuit à partir de 52€ </h3> 
                   
                      <div class="icones_etoiles" id="etoiles_hebergement2">
@@ -116,13 +176,14 @@
 
                   </div> 
 
-               </article>
+               </a>
 
-               <article class="cartes_hebergement" id="hebergement3">
+               <a href="#" class="cartes_hebergement" id="hebergement3">
                   
                   <div class="infos_hebergement">
 
                      <h2> Hôtel Les mouettes </h2>
+                    
                      <h3 class= "tarifs"> Nuit à partir de 76€ </h3> 
                
                      <div class="icones_etoiles" id="etoiles_hebergement3">
@@ -137,13 +198,14 @@
 
                   </div>
                
-               </article>
+               </a>
 
-               <article class="cartes_hebergement" id="hebergement4"> 
+               <a href="#" class="cartes_hebergement" id="hebergement4"> 
 
                   <div class="infos_hebergement">
 
                      <h2> Hôtel de la mer </h2>
+                     
                      <h3 class= "tarifs"> Nuit à partir de 46€ </h3> 
                   
                      <div class="icones_etoiles" id="etoiles_hebergement4">
@@ -158,14 +220,15 @@
 
                   </div>
 
-               </article>
+               </a>
 
-               <article class="cartes_hebergement" id="hebergement5">
+               <a href="#" class="cartes_hebergement" id="hebergement5">
                   
                   <div class="infos_hebergement">
 
                      <h2> Auberge Le Panier </h2>
-                     <h3 class= "tarifs">   Nuit à partir de 23€ </h3> 
+                     
+                     <h3 class= "tarifs"> Nuit à partir de 23€ </h3> 
                
                      <div class="icones_etoiles" id="etoiles_hebergement5">
                        
@@ -179,14 +242,15 @@
 
                   </div>  
                
-               </article>
+               </a>
 
-               <article class="cartes_hebergement" id="hebergement6">
+               <a href="#" class="cartes_hebergement" id="hebergement6">
                   
                   <div class="infos_hebergement">
 
                      <h2> Hôtel chez Amina </h2>
-                     <h3 class= "tarifs">  Nuit à partir de 96€ </h3> 
+                     
+                     <h3 class= "tarifs"> Nuit à partir de 96€ </h3> 
                
                      <div class="icones_etoiles" id="etoiles_hebergement6">
                        
@@ -200,11 +264,11 @@
 
                   </div>  
 
-               </article>
+               </a>
 
             </div> <!--FIN DE LA GALERIE DE CARTES "HEBERGEMENTS"-->
            
-            <h3>Afficher plus</h3>
+            <h3> Afficher plus </h3>
         
          </section>
                
@@ -213,18 +277,22 @@
          <section id="populaires">
 
             <div id="en_tete_populaires">
-               <h3> Les plus populaires</h3>
+               
+               <h3> Les plus populaires </h3>
+               
                <i class="fa-solid fa-arrow-trend-up"></i> <!--icône "populaires"-->
+           
             </div>
 
             <div id="galerie_cartes_populaires"> <!--DEBUT DE LA GALERIE DE CARTES "POPULAIRES"-->
 
-               <article class="cartes_populaires" id="carte_populaires1"> 
+               <a href="#" class="cartes_populaires" id="carte_populaires1"> 
                   
 
                   <div class="infos_populaires">
 
                      <h2> Hôtel Le soleil du <br> matin </h2>
+                     
                      <h3 class="tarifs">  Nuit à partir de 128€ </h3> 
                     
                      <div class="ic_etoiles_populaires" id="etoiles_populaires1">
@@ -239,15 +307,16 @@
 
                   </div>
                                  
-               </article>
+               </a>
                
 
-               <article class="cartes_populaires" id="carte_populaires2"> 
+               <a href="#" class="cartes_populaires" id="carte_populaires2"> 
 
                   <div class="infos_populaires">
 
                      <h2> Au coeur de l'eau <br> Chambre d'hôtes  </h2>
-                     <h3 class="tarifs">  Nuit à partir de 71€ </h3> 
+                     
+                     <h3 class="tarifs"> Nuit à partir de 71€ </h3> 
                      
                      <div class="ic_etoiles_populaires" id="etoiles_populaires1">
                      
@@ -258,17 +327,20 @@
                         <i class="fa-solid fa-star"></i>
 
                      </div>
+                 
+                  </div>
 
                                   
-               </article>
+               </a>
                
 
-               <article class="cartes_populaires" id="carte_populaires3"> 
+               <a class="cartes_populaires" id="carte_populaires3"> 
 
                   <div class="infos_populaires">
 
-                     <h2> Hôtel Tout bleu et <br>Blanc  </h2>
-                     <h3 class="tarifs">  Nuit à partir de 68€ </h3> 
+                     <h2> Hôtel Tout bleu et <br> Blanc  </h2>
+                    
+                     <h3 class="tarifs"> Nuit à partir de 68€ </h3> 
                      
                      <div class="ic_etoiles_populaires" id="etoiles_populaires1">
                      
@@ -282,7 +354,7 @@
 
                   </div>
 
-               </article> 
+               </a> 
           
             </div> <!--FIN DE LA GALERIE DE CARTES "POPULAIRES"-->
 
@@ -290,40 +362,63 @@
 
       </section>
 
-   <section id="container_activites">
-
-      <section id="activites_bloc1">
-
-         <h2>Activités à Marseille</h2>
+      <h3 id="titre_container_activites"> Activités à Marseille </h3>
+       
+      <section id="container_activites">    
          
-         <div class="carte_verticale">
-            <div class="carte_activites"> Vieux Port</div> 
-         </div>  
          
-         <div>
-            <div class="carte_activites"> Fort de Pomègues</div> 
-            <div class="carte_activites"> Îles du Frioul</div> 
-         </div>
+
+         <section class="bloc_activites" id="bloc1"> 
+
+            
+            <a href="#" class="bloc_vertical" id="vieux_port"> 
+            
+               <div class="nom_activite"> Vieux Port </div> <!--mis en div plutôt que h3 pour plus de malléabilité (height, width, position etc)-->
+            
+            </a>
+            
+            <a href="#" class="carte_activites" id="pomegues"> 
+              
+               <div class="nom_activite"> Fort de Pomègues </div> 
+            
+            </a>
+
+            <a href="#" class="carte_activites" id="frioul"> 
+            
+               <div class="nom_activite"> Îles du Frioul </div>
+            
+            </a>
+
+
+         </section>
+
+         <section class="bloc_activites" id="bloc2"> 
+
+            <a href="#" class="bloc_vertical" id="calanques"> 
+               
+               <div class="nom_activite"> Parc National des Calanques </div> 
+               
+            </a>
+
+                        
+            <a href="#" class="carte_activites" id="notre_dame"> 
+              
+               <div class="nom_activite" > Notre-Dame-de-la-Garde </div> 
+            
+            </a>
+
+            <a href="#" class="carte_activites" id="longchamp"> 
+              
+               <div class="nom_activite" > Parc Longchamp </div>
+            </a>
+
+
+         </section>
 
       </section>
-
-      <section id="activites_bloc2">
          
-         <div class="carte_verticale">     
-            <div class="carte_activites"> Parc national des Calanques </div> 
-         </div>
-         
-         <div>
-         
-            <div class="carte_activites"> Notre-Dame-de-la-Garde</div> 
-            <div class="carte_activites"> Parc Longchamp </div> 
-         
-         </div>
 
-
-      </section> 
-
-   </section>
+   
 
    </main>
    
@@ -333,9 +428,12 @@
 
       <div class= "blocs_footer" id= "a_propos"> 
             
-         <h3 class="titres_footer">A propos</h3>
+         <h3 class="titres_footer"> A propos </h3>
+         
          <div> <a href="#" class= "ancres_footer"> Fonctionnement du site </a> </div>
+         
          <div> <a href="#" class= "ancres_footer"> Conditions générales de vente </a> </div>
+         
          <div> <a href="#" class= "ancres_footer"> Données et confidentialité </a> </div>
                   
       </div>
@@ -343,7 +441,9 @@
       <div class= "blocs_footer" id= "nos_hebergements">
             
          <h3 class="titres_footer">Nos hébergements</h3>
+         
          <div> <a href="#" class= "ancres_footer"> Charte qualité </a> </div>
+        
          <div> <a href="#" class= "ancres_footer"> Soumettre votre hôtel </a> </div>
 
       </div>
@@ -351,7 +451,9 @@
       <div class= "blocs_footer" id= "assistance">
             
          <h3 class="titres_footer">Assistance</h3>
+        
          <div > <a href="#" class= "ancres_footer"> Centre d'aide </a> </div>
+         
          <div > <a href="#" class= "ancres_footer"> Nous contacter </a> </div>
       
       </div>
