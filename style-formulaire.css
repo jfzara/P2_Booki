@@ -1,0 +1,49 @@
+/*--FORMULAIRE--*/
+
+
+.formulaire {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+     
+ }
+ 
+   
+ .localisation {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   font-size: 1rem;
+   border: 1px lightgrey solid;
+   border-radius: 35px 0 0 35px;
+   background-color: lightgrey;
+   width: 0.7%;
+   padding: 1em;
+
+ }
+     
+                         
+ 
+ 
+ .bouton_formulaire {
+  background-color: #0065fc;
+  border-color: #0065fc;
+  color: white;
+  border-radius: 0 15px 15px 0;
+  height: 40px;
+  font-family: "Raleway"; /*modifie la police par défaut du bouton*/
+  font-weight: 600;
+  font-size: 14px;
+ 
+ }
+ 
+ .texte_formulaire {
+  border: 1px white solid;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+
+ }

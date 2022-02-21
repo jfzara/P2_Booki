@@ -1,0 +1,158 @@
+/*--------ARTICLE + SECTIONS--------*/
+
+
+.container_hebergements_populaires {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin-bottom: 4rem;
+  margin-left: 2.5rem; 
+  margin-right: 2.5rem; 
+    
+}
+ 
+#hebergements {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-right: 1rem; /*--frontière avec section" populaires"*/
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background: #F2F2F2;
+  width: 70%;
+    
+}
+ 
+ 
+.galerie_figures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+       
+}
+ 
+.article_hebergement {
+  width: 30%;
+  border-radius: 20px;
+  margin-bottom: 3rem;
+  box-shadow: 5px 5px 15px lightgrey;
+  background-color: white;
+    
+}
+ 
+.figures{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;  
+
+}
+ 
+.images_cartes {
+  border: 5px white solid;
+  border-radius: 20px 20px 0 0;
+  max-width: 100%;
+  object-fit: cover;
+
+}
+
+.infos_cartes {
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  
+}
+
+.icones_etoiles {
+  display: flex;
+  flex-direction: row;
+  gap: 0.1rem;
+  position: relative;
+  bottom: 0.2rem;
+
+}
+ 
+
+ 
+ /*--SECTION POPULAIRES--*/
+ 
+ 
+.populaires {
+   display: flex;
+   flex-direction: column;
+   border-radius: 20px;
+   margin-right: 1rem;
+   margin-left: 2rem; /*--frontière avec section" populaires"*/
+   width: 30%;
+   background-color: #F2F2F2;
+   padding-top: 2rem;
+   padding-left: 3rem;
+   padding-right: 3rem;
+
+}
+ 
+.en_tete_populaires {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-left: 50px;
+ 
+}
+ 
+.galerie_cartes_populaires {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.9rem;
+
+}
+ 
+.articles_populaires {
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px white solid;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 15px lightgrey;
+  background-color: white;
+  width: 100%;
+   
+}
+
+.figures_populaires {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+
+}
+ 
+.infos_populaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding-bottom: 0.5rem;
+    border: 3px white solid;
+    border-radius: 0 20px 20px 0;
+    
+}
+
+.images_cartes_populaires {
+   border: 5px white solid;
+   border-radius: 20px 0 0 20px;
+   max-width: 95%;
+   object-fit: cover;
+   
+}
+ 
+  
+ 

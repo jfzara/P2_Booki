@@ -1,0 +1,33 @@
+/*--------FOOTER--------*/
+
+
+footer { 
+   background-color: #F2F2F2;
+   color: black;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between ;
+   align-items: flex-start;
+   margin-top: 100px;
+   padding-right: 11rem;
+   padding-left: 3rem;
+
+}
+
+
+.blocs_footer { 
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around; 
+   padding-left: 1rem;
+
+}
+
+.ancres_footer {
+   line-height: 2rem;
+   font-weight: 400;
+
+}
+ 
+     
+ 

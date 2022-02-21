@@ -1,0 +1,164 @@
+/*--------SECTION ACTIVITES--------*/    
+
+
+ 
+#container_activites {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  justify-content: space-around;
+
+}
+      
+.image_activites {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+   
+
+  /* CÔTÉ GAUCHE BLOC 1 */
+
+
+
+.bloc_activites1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 47%;
+
+}
+
+
+.half_left {
+  width: 47%;
+  border-radius: 20px 20px 0 0 ;
+  box-shadow: 5px 5px 15px lightgrey; 
+
+}
+
+.activites1 {
+  height: 73%;
+  width: 80%;
+  
+}
+
+.image_activites_left {
+  max-width: 100%;
+  height: 92%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0 ;
+
+}
+   
+
+.half_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width:47%;
+   
+}
+
+.activites2 {
+  height: 58%;
+  box-shadow: 5px 5px 15px lightgrey;
+  border-radius: 20px 20px 0 0 ;
+
+}
+
+.activites3 {
+  height: 45%;
+  box-shadow: 5px 5px 15px lightgrey;
+  border-radius: 20px 20px 0 0 ;
+
+}
+
+.image_activites2 {
+  max-width: 100%;
+  height: 92%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0 ;
+
+}
+
+.image_activites3 {
+  max-width: 100%;
+  height: 92%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0 ;
+
+}
+
+ /* CÔTÉ DROIT BLOC 2 */
+
+.bloc_activites2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 47%;
+
+}
+
+.half_left {
+  width: 47%;
+  box-shadow: 5px 5px 15px lightgrey; 
+  border-radius: 20px 20px 0 0 ;
+
+}
+
+.image_activites_left {
+  max-width: 100%;
+  height: 92%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0 ;
+
+}
+ 
+
+.activites4 {
+  height: 73%;
+  width: 80%;
+  
+}
+
+
+.half_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width:47%;
+  
+}
+
+.activites5 {
+  height: 40%;
+  box-shadow: 5px 5px 15px lightgrey;
+  border-radius: 20px 20px 0 0 ;
+
+
+}
+
+.activites6 {
+  height: 50%;
+  box-shadow: 5px 5px 15px lightgrey;
+  border-radius: 20px 20px 0 0 ;
+
+}
+
+ .image_activites5 {
+  width: 100%;
+  height: 65%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0 ;
+
+}
+
+.image_activites6 {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0 ;
+
+}
