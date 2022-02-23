@@ -4,275 +4,287 @@
 
 @media screen and (max-width: 768px) {
 
-    body {
-       display: flex;
-       flex-direction: column;
-       
-    
-    }
-    
-    header {
-       display: flex;
-       flex-direction: column;
-       flex-wrap: wrap;
-       justify-content:center;
-       align-items: center;
-       
-    }
-    
-    nav {   
-        width: 100%;
-    }  
-    
-    .ancre_menu {
-       padding-bottom: 20px;
-       border-top: 2px white solid;
-       border-bottom: 2px white solid;
-       width: 50%;
-    
-    }
-    
-    .ancre_menu:hover {
-       border-top: 2px white solid;
-       border-bottom: 2px #0065fc solid;
-       color:#0065fc;
-    
-    }
-    
-    #logo_booki {
-       padding-left: 0; /*permet de centrer le logo au milieu des deux ancres du menu*/
-    
-    }
-    
-    
-    /*--FORMULAIRE--*/
-    
-    
-    #formulaire {
-       display: flex;
-       flex-direction: row;
-       width: 100%;
+body {
+   display: flex;
+   flex-direction: column;
+   
 
-    }
+}
+    
+header {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content:center;
+   align-items: center;
+   
+}
+    
+nav {   
+   width: 100%;
+
+}  
+
+.ancre_menu {
+   padding-bottom: 20px;
+   border-top: 2px white solid;
+   border-bottom: 2px white solid;
+   width: 50%;
+
+}
+
+.ancre_menu:hover {
+   border-top: 2px white solid;
+   border-bottom: 2px #0065fc solid;
+   color:#0065fc;
+
+}
+
+.logo_booki {
+   padding-left: 0; /*permet de centrer le logo au milieu des deux ancres du menu*/
+
+}
     
     
-     #icone_localisation {
-       width: 20%;
+/*--FORMULAIRE--*/
+
+
+.formulaire {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+
+}
+
+
+.icone_localisation {
+   width: 20%;
+
+}
+
+.texte_formulaire {
+   width: 60%;
+
+}
+
+.bouton_formulaire {
+   width: 20%;
+
+}
+
+.texte_bouton {
+   height: 0%;
+   width: 0%;
+
+
+}
+
+.icone_recherche {
+display: flex;
+flex-direction: column;
+justify-content: center; 
+align-items: center;
+z-index: 3;
+height: 100%;
+width: 100%;
+
+
+}
+
+
+.div_titres_accueil {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+h1 { 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: baseline;
+   flex-wrap: nowrap;
+   font-size: 18px;
+   padding-top: 20px;
+   
+}
+
+h2 {
+   font-size: 13px;
+
+}
+
+
+h3 {
+   width: 100%;
+
+}
+
+.container_info_filtres {
+display: flex;
+flex-direction: column-reverse;
+margin-bottom: 2rem;
+
+}
+
+
+.container_filtres { 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-bottom: 3%;
+   margin-top: 3%;
+
+}
+
+.themes {
+   display: flex;
+   flex-direction: row;
+   border: 1px grey solid;
+   border-radius: 35px;
+   margin-top: 10%;
+   margin-bottom: 7%;
+
+}
+.icones_themes {
+   background-color: rgb(161, 191, 255);
+   border: 1px rgb(161, 191, 255);
+   border-radius: 35px;
+
+}
+
+.economiques {
+   width: 55%;
+
+}
+
+.familial {
+   width: 40%;
+
+}
+
+.romantique {
+   width: 82%;
+
+}  
+
+.animaux_autorises {
+   width: 65%;
+
+}    
+
+.container_hebergements_populaires {
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content: space-between;
+   border-radius: 20px;
+   background: white;
+   margin-bottom: 40px;
+   margin-left: 0; 
+   margin-right: 0; 
+
+
+}
+
+#hebergements {
+   padding-left: 0;
+   padding-right: 0;
+   width: 100%;
+   background-color: white;
+   
+}
+
+.galerie_figures {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100%;
+   margin-left: 0;
+   margin-right: 0;
+   padding-left: 0;
+   padding-right: 0;
+   
+
+}
+
+.populaires {
+   display: flex;
+   flex-direction: column;
+   background: #F2F2F2;
+   border-radius: 0;
+   width: 100%;
+   
+}
+
+.en_tete_populaires {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   font-weight: bold;
+   margin-left: 50px;
+
+}
+
+
+.article_hebergement {
+   width: 100%;
+
+}
+
+#container_activites {
+   display: flex;
+   flex-direction: column;
+   border-radius: 20px;
+   width: 100%;
+   
+}
+
+.bloc_activites1, .bloc_activites2, .half_left, .half_right, .activites2, .bloc_activites3, .activites5, .activites6 {
+   width: 100%; 
+   
+}
+
+.bloc_activites1, .bloc_activites2 {
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.half_left, .activites2,.activites5, .activites6 {
+   margin-bottom: 2rem;
+   
+}
+
+
+footer {
+   display: flex;
+   flex-direction: column;  
+   justify-content: center;
+   align-items: flex-start;
+   padding-right:45px;  
+   padding-left: 20px;
+   
+}
+
+.blocs_footer {
+   min-width:250px;
+
+}
+
+.titres_footer {
+   min-width:250px;
+   padding-right:45px;
+}
     
-     }
-    
-    #texte_formulaire {
-       width: 60%;
-    
-    }
-    
-    #bouton_formulaire {
-       width: 20%;
-    
-    }
-    
-    
-    #div_titres_accueil {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-    
-    }
-    
-    
-    h1 { 
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: baseline;
-       flex-wrap: nowrap;
-       font-size: 18px;
-       padding-top: 20px;
-         
-    }
-    
-    h2 {
-       font-size: 13px;
-    
-    }
-    
-    
-    h3 {
-       width: 100%;
-    
-    }
-    
-    
-    .container_filtres { 
-       display: flex;
-       flex-direction: row;
-       justify-content: space-between;
-       flex-wrap: wrap;
-       margin-bottom: 3%;
-       margin-top: 3%;
-    
-    }
-    
-    .themes {display: flex;
-       flex-direction: row;
-       border: 1px grey solid;
-       border-radius: 35px;
-       margin-top: 3%;
-       margin-bottom: 3%;
-    
-    }
-    .icones_themes {
-       background-color: rgb(161, 191, 255);
-       border: 1px rgb(161, 191, 255);
-       border-radius: 35px;
-    
-    }
-    
-    #economiques {
-       width: 55%;
-    
-    }
-    
-    #familial {
-       width: 40%;
-    
-    }
-    
-    #romantique {
-       width: 82%;
-    
-    }  
-      
-    #animaux_autorises {
-       width: 65%;
-    
-    }    
-    
-    #container_hebergements_populaires {
-       display: flex;
-       flex-direction: column-reverse;
-       justify-content: space-between;
-       border-radius: 20px;
-       background: white;
-       margin-bottom: 40px;
-       margin-left: 0; 
-       margin-right: 0; 
-    
-    }
-    
-    #hebergements {
-       padding-left: 0;
-       padding-right: 0;
-       
-    }
-    
-    #galerie_cartes_hebergement {
-       display: flex;
-       flex-direction: column;
-       justify-content: space-between;
-       margin-top: 30px;
-       margin-bottom: 30px;
-       height: 100%;
-       margin-left: 0;
-       margin-right: 0;
-       padding-left: 0;
-       padding-right: 0;
-    
-    }
-    
-    #populaires {
-       display: flex;
-       flex-direction: column;
-       background: #F2F2F2;
-       border-radius: 0;
-       
-    }
-    
-    #en_tete_populaires {
-       display: flex;
-       flex-direction: row;
-       justify-content: space-between;
-       font-weight: bold;
-       margin-left: 50px;
-    
-    }
-    
-    
-    .cartes_hebergement {
-       min-height: 26vh;
-    
-    }
-    
-    #container_activites {
-       display: flex;
-       flex-direction: column;
-       justify-content: space-between;
-       border-radius: 20px;
-       width: 100%;
-       height: 81vh;
-    
-    }
-    
-    .bloc_activites {
-       height: 100%;
-       width: 100%;
-       display: flex;
-       flex-direction: row;
-       justify-content: space-between;
-       border-radius: 20px;
-    
-    }
-    
-    .carte_activites {
-       width: 100%;
-       height: 45%;
-       margin-left:0;
-       border-radius: 20px;
-       box-shadow: 5px 5px 15px lightgrey;
-       
-    }
-    
-    .bloc_vertical {
-       height: 100%;
-       width: 100%;
-       
-    }
-    
-    #bloc1 {
-       display: flex;
-       flex-direction: column;
-       flex-wrap:nowrap;
-       border-radius: 20px;
-    
-    }
-    
-    #bloc2 {
-       display: flex;
-       flex-direction: column;
-       flex-wrap: nowrap;
-       border-radius: 20px;
-    
-    }
-    
-    footer {
-       display: flex;
-       flex-direction: column;  
-       justify-content: center;
-       align-items: flex-start;
-       padding-right:45px;  
-       padding-left: 20px;
-       
-    }
-    
-    .blocs_footer {
-       min-width:250px;
-      
-    }
-    
-    .titres_footer {
-       min-width:250px;
-       padding-right:45px;
-    }
-    
+
+
+
+
+
+
+
 }

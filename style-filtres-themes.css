@@ -30,11 +30,11 @@
  .icones_filtres {
    color: #0065fc;
    border: #0065fc;
-   font-size: 2.5em;
    background-color: rgb(209, 223, 255);
    border: 10px rgb(209, 223, 255) solid;
    border-radius: 50px;
-      
+   min-width: 1.5rem;   
+   font-size: 1.5em;
 } 
 
 .titres_filtres { 

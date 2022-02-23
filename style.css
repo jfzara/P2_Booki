@@ -1,6 +1,14 @@
 
 /*--------GLOBAL--------*/
 
+
+* { 
+   margin: 0;
+   padding: 0
+
+}
+
+
 body {
    font-family: "Raleway";
    font-size: 75%;
@@ -8,8 +16,15 @@ body {
    display: flex;
    flex-direction: column;
    align-content: center;
-      
+   
 }
+
+main {
+   margin-left: 2rem;
+   margin-right: 2rem;
+
+}
+
 /*--POLICES--*/
 
 

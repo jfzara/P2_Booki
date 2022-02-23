@@ -1,22 +1,39 @@
 /*--------SECTION ACTIVITES--------*/    
 
-
+.titre_activites {
+  
+}
  
 #container_activites {
   display: flex;
   flex-direction: row;
+  gap: 3rem;
   border-radius: 20px;
-  justify-content: space-around;
+  margin-top: 3rem;
 
 }
-      
-.image_activites {
-  max-width: 100%;
-  height: 100%;
-  object-fit: cover;
+    
+.half_left {
+  width: 47%;
+  border-radius: 20px 20px 0 0 ;
+  box-shadow: 5px 5px 15px lightgrey; 
 
 }
+
+.half_right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width:47%;
    
+}
+
+.nom_activites {
+padding-left: 1rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+
+}
 
   /* CÔTÉ GAUCHE BLOC 1 */
 
@@ -26,69 +43,48 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 47%;
-
-}
-
-
-.half_left {
-  width: 47%;
-  border-radius: 20px 20px 0 0 ;
-  box-shadow: 5px 5px 15px lightgrey; 
-
-}
-
-.activites1 {
-  height: 73%;
-  width: 80%;
+  width: 50%;
   
+
 }
+
 
 .image_activites_left {
-  max-width: 100%;
-  height: 92%;
+  width: 100%;
+  height: 90%;
   object-fit: cover;
-  border-radius: 20px 20px 0 0 ;
+  border-radius: 20px 20px 0 0;
 
 }
    
-
-.half_right {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width:47%;
-   
-}
-
 .activites2 {
-  height: 58%;
+  height: 50%;
   box-shadow: 5px 5px 15px lightgrey;
-  border-radius: 20px 20px 0 0 ;
-
+  border-radius: 20px;
+ 
 }
 
 .activites3 {
-  height: 45%;
+  height: 43%;
   box-shadow: 5px 5px 15px lightgrey;
-  border-radius: 20px 20px 0 0 ;
-
+  border-radius: 20px;
+ 
 }
 
 .image_activites2 {
-  max-width: 100%;
-  height: 92%;
+  width: 100%;
+  height: 80%;
   object-fit: cover;
-  border-radius: 20px 20px 0 0 ;
-
+  border-radius: 20px 20px 0 0;
+    
 }
 
 .image_activites3 {
-  max-width: 100%;
-  height: 92%;
+  width: 100%;
+  height: 76.5%;
   object-fit: cover;
-  border-radius: 20px 20px 0 0 ;
-
+  border-radius: 20px 20px 0 0;
+ 
 }
 
  /* CÔTÉ DROIT BLOC 2 */
@@ -97,61 +93,50 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 47%;
+  width: 50%;
 
 }
 
 .half_left {
   width: 47%;
   box-shadow: 5px 5px 15px lightgrey; 
-  border-radius: 20px 20px 0 0 ;
-
+  border-radius: 20px;
+ 
 }
 
 .image_activites_left {
-  max-width: 100%;
-  height: 92%;
+  width: 100%;
   object-fit: cover;
-  border-radius: 20px 20px 0 0 ;
+  border-radius: 20px 20px 0 0;
 
 }
  
-
 .activites4 {
-  height: 73%;
   width: 80%;
   
 }
 
-
-.half_right {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width:47%;
-  
-}
-
 .activites5 {
-  height: 40%;
+  height: 43%;
+  width: 100%;
   box-shadow: 5px 5px 15px lightgrey;
-  border-radius: 20px 20px 0 0 ;
-
+  border-radius: 20px;
 
 }
 
 .activites6 {
   height: 50%;
+  width: 100%;
   box-shadow: 5px 5px 15px lightgrey;
-  border-radius: 20px 20px 0 0 ;
+  border-radius: 20px;
 
 }
 
  .image_activites5 {
   width: 100%;
-  height: 65%;
+  height: 80%;
   object-fit: cover;
-  border-radius: 20px 20px 0 0 ;
+  border-radius: 20px 20px 0 0;
 
 }
 
@@ -159,6 +144,6 @@
   width: 100%;
   height: 80%;
   object-fit: cover;
-  border-radius: 20px 20px 0 0 ;
+  border-radius: 20px 20px 0 0;
 
 }

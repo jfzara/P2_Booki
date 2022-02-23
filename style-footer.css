@@ -9,6 +9,7 @@ footer {
    justify-content: space-between ;
    align-items: flex-start;
    margin-top: 100px;
+   padding-bottom: 2rem;
    padding-right: 11rem;
    padding-left: 3rem;
 
@@ -22,6 +23,12 @@ footer {
    padding-left: 1rem;
 
 }
+.titres_footer {
+   margin-top: 2rem;
+   margin-bottom: 1.5rem;
+
+}
+
 
 .ancres_footer {
    line-height: 2rem;
