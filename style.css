@@ -5,7 +5,6 @@
 * { 
    margin: 0;
    padding: 0
-
 }
 
 
@@ -16,13 +15,11 @@ body {
    display: flex;
    flex-direction: column;
    align-content: center;
-   
 }
 
 main {
    margin-left: 2rem;
    margin-right: 2rem;
-
 }
 
 
@@ -30,30 +27,25 @@ main {
    text-decoration: none;
    color: black;
    font-size: 14px;
-   
 } 
 
 h1 {
    font-size: 16px;
-  
 }
 
 h2 {
    font-weight: bold;
    font-size: 15px;
-   
 }
 
 h3 {
    font-size: 14px;
    font-weight: bold;
-
 }
 
 .titre2_accueil, p {
    font-weight: normal;
    font-size: 15px;
-   
 }
 
 /*--ICÔNE INFORMATION--*/
@@ -63,7 +55,6 @@ h3 {
    display: flex;
    flex-direction: row;
    align-items: center;
-  
 }
 
 .icone_info {
@@ -75,6 +66,5 @@ h3 {
    width: 1.3%;
    height: 1.3%;
    margin-right: 1rem;
-
 }
 

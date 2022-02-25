@@ -9,19 +9,16 @@ header {
    text-align: center;
    margin-left: 2.5vw; 
    margin-right: 2.5vw; 
- 
- }
+}
   
 .logo_booki {
    padding-left: 20px;
-
 }
 
 nav { 
    display: flex;
    flex-direction: row;
    align-items: center; 
-   
 }
 
 .ancre_menu {
@@ -31,11 +28,9 @@ nav {
    justify-content: space-around;   
    padding: 50px;
    border-top: 2px white solid;
-   
 }
 
 .ancre_menu:hover {
    border-top: 2px #0065fc solid;
    color:#0065fc;
-
 }
