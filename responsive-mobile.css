@@ -68,27 +68,19 @@ nav {
 }
 
 .bouton_formulaire {
-   width: 20%;
-
+   width: 7%;
+   border: 5px #0065fc solid;
+   border-radius: 12px;
 }
 
 .texte_bouton {
-   height: 0%;
-   width: 0%;
+   display: none;
 
 
 }
 
-.icone_recherche {
-display: flex;
-flex-direction: column;
-justify-content: center; 
-align-items: center;
-z-index: 3;
-height: 100%;
-width: 100%;
-
-
+.fa-search {
+   
 }
 
 
@@ -211,6 +203,7 @@ margin-bottom: 2rem;
 
 }
 
+
 .populaires {
    display: flex;
    flex-direction: column;
@@ -230,7 +223,7 @@ margin-bottom: 2rem;
 }
 
 
-.article_hebergement {
+.carte_section_hebergements {
    width: 100%;
 
 }
@@ -238,27 +231,32 @@ margin-bottom: 2rem;
 #container_activites {
    display: flex;
    flex-direction: column;
+   flex-wrap: wrap;
    border-radius: 20px;
    width: 100%;
    
 }
 
-.bloc_activites1, .bloc_activites2, .half_left, .half_right, .activites2, .bloc_activites3, .activites5, .activites6 {
+.container_activites article {
    width: 100%; 
    
 }
 
-.bloc_activites1, .bloc_activites2 {
+.bloc_activites {
    display: flex;
    flex-direction: column;
    
 }
 
-.half_left, .activites2,.activites5, .activites6 {
+.half_left, .activites_grand,.activites_moyen,.activites_petit,.activites_petit {
    margin-bottom: 2rem;
    
 }
 
+.carte_section_hebergements{
+   margin-bottom: 2rem;
+   
+}
 
 footer {
    display: flex;

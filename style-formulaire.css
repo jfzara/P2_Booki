@@ -4,6 +4,7 @@
 .formulaire {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin-top: 30px;
   margin-bottom: 30px;
      
@@ -16,7 +17,7 @@
    align-items: center;
    font-size: 1rem;
    border: 1px lightgrey solid;
-   border-radius: 35px 0 0 35px;
+   border-radius: 12px 0 0 12px;
    background-color: lightgrey;
    width: 0.7%;
    padding: 1em;
@@ -27,48 +28,42 @@
  
  
  .bouton_formulaire {
-  background-color: #0065fc;
-  border-color: #0065fc ;
-  border: 1px #0065fc solid;
-  color: white;
-  border-radius: 0 15px 15px 0;
-  height: 40px;
-  font-family: "Raleway"; /*modifie la police par défaut du bouton*/
-  font-weight: 600;
-  font-size: 14px;
-  z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #0065fc;
+    border-color: #0065fc ;
+    border: 5px #0065fc solid;
+    color: white;
+    border-radius: 0 15px 15px 0;
+    height: 40px;
+    font-family: "Raleway"; /*modifie la police par défaut du bouton*/
+    font-weight: 600;
+    font-size: 14px;
+    justify-items:center;
 
  }
 
 
 .texte_bouton {
   background-color: #0065fc;
-  border-color: #0065fc;
   color: white;
-  border-radius: 0 15px 15px 0;
-  height: 40px;
+  border-radius: 0 12px 12px 0;
   font-family: "Raleway"; 
   font-weight: 600;
   font-size: 14px;
-  z-index: 3;
-  height: 100%;
-  width: 100%;
 
-}
+  }
 
-.icone_recherche {
-  background-color: #0065fc;
-  border-color: #0065fc;
-  color: white;
-  border-radius: 0 15px 15px 0;
-  height: 40px;
-  font-family: "Raleway"; 
-  font-weight: 600;
-  font-size: 14px;
-  z-index: 2;
-  height: 0%;
-  width: 0%;
-
+.fa-search {
+ display: none;
+ border-radius: 0 15px 15px 0;
+ font-family: "Raleway"; 
+ font-weight: 600;
+ font-size: 14px;
+ display: none;
+ width: 0%;
 }
  
  .texte_formulaire {

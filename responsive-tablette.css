@@ -67,28 +67,29 @@
         }
         
         .bouton_formulaire {
-           width: 20%;
-        
+           width: 7%;
+           border: 5px #0065fc solid;
+           border-radius: 12px;
         }
         
         .texte_bouton {
            height: 0%;
            width: 0%;
-        
-        
-        }
-        
-        .icone_recherche {
-        display: flex;
-        flex-direction: column;
-        justify-content: center; 
-        align-items: center;
-        z-index: 3;
-        height: 100%;
-        width: 100%;
-        
+           display: none;
         
         }
+        
+        .fas fa-search {
+         background-color: #0065fc;
+         color: white;
+         border-radius: 0 15px 15px 0;
+         height: 40px;
+         font-family: "Raleway"; 
+         font-weight: 600;
+         font-size: 14px;
+         
+       
+       }
         
         
         .div_titres_accueil {

@@ -34,13 +34,14 @@
        
 }
  
-.article_hebergement {
+.carte_section_hebergements {
   width: 30%;
   border-radius: 20px;
   margin-bottom: 2.5rem;
   box-shadow: 5px 5px 15px lightgrey;
   background-color: white;
-    
+  text-decoration: none;
+  color: black;
 }
  
 .figures{
@@ -69,7 +70,7 @@
   
 }
 
-.card-title {
+.nom_tarif {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -80,9 +81,8 @@
   
 }
 
-.star-bleu {
+.fas.fa-star.star-bleu {
   color: #0065fc;
-
 }
 
 .fas.fa-star {
@@ -110,9 +110,14 @@
     justify-content: space-between;
     font-weight: bold;
     margin-left: 50px;
+    padding-right: 2rem;
  
 }
- 
+ .fa-chart-line {
+ font-size: 16px;
+ }
+
+
 .galerie_cartes_populaires {
   display: flex;
   flex-direction: column;
@@ -123,7 +128,7 @@
 
 }
  
-.articles_populaires {
+.cartes_populaires {
   display: flex;
   justify-content: center;
   align-items: center;
