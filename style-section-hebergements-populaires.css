@@ -161,6 +161,10 @@
   width: 60%;
   
 }
+.prix_nuit_populaires {
+  display:inline-block;
+  line-break: auto;
+}
 
 .images_cartes_populaires {
   border: 5px white solid;
