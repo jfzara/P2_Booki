@@ -4,24 +4,63 @@
 .container_filtres { 
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 3rem;
   align-items: center;
-  width: 75%;
+  width: 100%;
   margin-bottom: 3%;
   margin-top: 3%;
-     
 }
  
- .cta_filtres {
-   border:1px white solid;
-   background-color: white;
-   width: 13rem;
+
+.cta_filtres {
+  font-size: 15px;
+  font-weight: 800;
+  display: inline-block;
+  text-align: center;
+  margin: 0 1.1rem 15px 0;
+  border: 2px solid #D7D7D7;
+  border-left: none;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background: linear-gradient(to right, #ffff 50%, #0065fc 50%);
+  transition: background-position 0.3s;
+  box-shadow: 0 0 0px transparent;
+  background-size: 203% 100%;
+}
+
+.cta_filtres:hover {
+  background-position: 98% 0%;
+  color: #ffff;
+  border-color: transparent;
+}
+
+.cta_filtres>a, a:visited {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  min-height: 100%;
+  padding: 15px 12px 15px 0;
+}
+
+.cta_filtres>a>i.fas {
+  color: #0065fc;
+  margin-right: 12px;
+}
+
+.cta_filtres i.fas::before {
+  display: inline-block;
+  border-radius: 100%;
+  background-color: #e0edff;
+  padding: 16px 16px;
+  height: auto;
+  margin-top: -2px;
+  margin-bottom: -2px;
+  margin-left: -3px;
 }
 
  .themes {
    display: flex;
    flex-direction: row;
-   border: 2px lightgrey solid;
    border-radius: 50px;
    align-items: center;
    

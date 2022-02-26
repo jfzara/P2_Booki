@@ -37,8 +37,16 @@
   font-weight: 600;
   font-size: 14px;
   justify-items:center;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+.bouton_formulaire i {
+  display: none;
 }
 
+.bouton_formulaire {
+  cursor: pointer;
+}
 
 .texte_bouton {
   background-color: #0065fc;
@@ -49,16 +57,6 @@
   font-size: 14px;
 
 }
-
-.fa-search {
-  display: none;
-  border-radius: 0 15px 15px 0;
-  font-family: "Raleway"; 
-  font-weight: 600;
-  font-size: 14px;
-  display: none;
-  width: 0%;
-}
  
 .texte_formulaire {
   border: 1px white solid;
@@ -66,5 +64,8 @@
   font-weight: 700;
   font-size: 14px;
   color: black;
-  text-align: center;
+  padding-left: 1rem;
+  width: 13%;
+
 }
+
