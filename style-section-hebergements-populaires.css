@@ -22,7 +22,7 @@
   padding-left: 3rem;
   padding-right: 3rem;
   background: #F2F2F2;
-  width: 70%;
+  width: 65%;
 }
  
  .galerie_figures {
@@ -122,7 +122,6 @@
 }
  
 .cartes_populaires {
-  display: flex;
   border: 1px white solid;
   border-radius: 20px;
   margin-bottom: 2.5rem;
@@ -158,15 +157,15 @@
 .images_cartes_populaires {
   border: 5px white solid;
   border-radius: 20px 0 0 20px;
-  width: 44%;
+  width: 34%;
   object-fit: cover;
   height: 10rem;
 }
 
 
- .galerie_cartes_populaires>:nth-child(3) figcaption {
+ /*.galerie_cartes_populaires>:nth-child(3) figcaption {
    border: 1px red solid;
    width: 100%;
  }
-  
+  */
  
