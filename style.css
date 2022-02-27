@@ -23,7 +23,7 @@ main {
 }
 
 
- header a,footer a,.container_hebergements_populaires a{
+header a,footer a,.container_hebergements_populaires a{
    text-decoration: none;
    color: black;
    font-size: 14px;

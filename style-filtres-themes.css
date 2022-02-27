@@ -59,21 +59,20 @@
 }
 
  .themes {
-   display: flex;
-   flex-direction: row;
-   border-radius: 50px;
-   align-items: center;
-   
+  display: flex;
+  flex-direction: row;
+  border-radius: 50px;
+  align-items: center;
 }
             
  .icones_filtres {
-   color: #0065fc;
-   border: #0065fc;
-   background-color: rgb(209, 223, 255);
-   border: 10px rgb(209, 223, 255) solid;
-   border-radius: 50px;
-   min-width: 1.5rem;   
-   font-size: 1.5em;
+  color: #0065fc;
+  border: #0065fc;
+  background-color: rgb(209, 223, 255);
+  border: 10px rgb(209, 223, 255) solid;
+  border-radius: 50px;
+  min-width: 1.5rem;   
+  font-size: 1.5em;
 } 
 
 .titres_filtres { 

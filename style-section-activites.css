@@ -1,4 +1,6 @@
 /*--------SECTION ACTIVITES--------*/    
+
+
 .titre_activites {
   font-size: 17px;
 }
@@ -39,7 +41,7 @@
   height: 37rem;
 }
 
-.moitie_droite{
+.moitie_droite {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -74,34 +76,37 @@
 
 
 .bloc_gauche .moitie_gauche .image_activite {
-  width: 100% ;
+  width: 100%;
   height: 91%;
 }
 
-.bloc_gauche .moitie_droite article:nth-of-type(1) img  {
-  width: 100% ;
+.bloc_gauche .moitie_droite article:nth-of-type(1) {
+  width: 100%;
+  height: 60%;
+}
+.bloc_gauche .moitie_droite article:nth-of-type(1) img {
+  width: 100%;
   height: 86%;
 }
 
+/*------------------------------*/
+
+
 .bloc_gauche .moitie_droite article:nth-of-type(1) {
-  width: 100% ;
-  height: 60%;
+  margin-bottom: 3rem;
 }
-
-.bloc_gauche .moitie_droite article:nth-of-type(2) img {
-  width: 100% ;
-  height: 74%;
-}
-
-.bloc_gauche .moitie_droite article:nth-of-type(2)  {
-  width: 100% ;
+.bloc_gauche .moitie_droite article:nth-of-type(2) {
+  width: 100%;
   height: 30%;
  
 }
-    
-.bloc_gauche .moitie_droite article:nth-of-type(1)  {
-  margin-bottom: 3rem;
+
+.bloc_gauche .moitie_droite article:nth-of-type(2) img {
+  width: 100%;
+  height: 74%;
 }
+    
+
 
 
 /*--------CARTES DROITE--------*/  
@@ -113,20 +118,20 @@
   height: 91%;
 }
 
+.bloc_droite .moitie_droite .carte_activite:nth-of-type(1) {
+  height: 32%;
+}
+
 .bloc_droite .moitie_droite article:nth-of-type(1) img {
   width: 100% ;
   height: 74%;
 }
-  
+ 
+.bloc_droite .moitie_droite .carte_activite:nth-of-type(2) {
+  height: 58%;
+}
+ 
 .bloc_droite .moitie_droite article:nth-of-type(2) img {
   width: 100% ;
   height: 85%;
-}
-
-.bloc_droite .moitie_droite .carte_activite:nth-of-type(1) {
-  height: 32%;
-
-}
-.bloc_droite .moitie_droite .carte_activite:nth-of-type(2) {
-  height: 58%;
 }

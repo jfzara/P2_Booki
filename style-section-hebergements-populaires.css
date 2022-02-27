@@ -54,7 +54,7 @@
 .images_cartes {
   border: 5px white solid;
   border-radius: 20px 20px 0 0;
-  max-width: 100%;
+  max-width: 100%; /* force les images à ne pas déborder du cadre de la figure*/
   object-fit: cover;
   height: 8.5rem;
 }
@@ -89,27 +89,27 @@
  
  
 .populaires {
-   display: flex;
-   flex-direction: column;
-   border-radius: 20px;
-   width: 25%;
-   background-color: #F2F2F2;
-   padding-top: 2rem;
-   padding-left: 1rem;
-   padding-right: 1rem;
-  }
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 25%;
+  background-color: #F2F2F2;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
  
 .en_tete_populaires {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-weight: bold;
-    margin-left: 50px;
-    padding-right: 2rem;
- }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-left: 50px;
+  padding-right: 2rem;
+}
 
  .fa-chart-line {
- font-size: 16px;
+  font-size: 16px;
  }
 
 .galerie_cartes_populaires {
@@ -162,10 +162,3 @@
   height: 10rem;
 }
 
-
- /*.galerie_cartes_populaires>:nth-child(3) figcaption {
-   border: 1px red solid;
-   width: 100%;
- }
-  */
- 
