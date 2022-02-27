@@ -84,6 +84,15 @@
   color:  #D7D7D7;
 }
 
+.afficher_plus {
+  border: none;
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 700;
+  text-align: start;
+  background: #F2F2F2;
+}
+
  
  /*--SECTION POPULAIRES--*/
  

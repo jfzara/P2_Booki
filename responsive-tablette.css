@@ -49,11 +49,11 @@
 
 
    h1, .titre2_accueil, p {
-      font-size: 16px;
+      font-size: 14px;
   }
 
    h2 {
-      font-size: 16px;
+      font-size: 14px;
    }
 
 /*--FORMULAIRE--*/
@@ -72,7 +72,7 @@
    
    .texte_formulaire {
       width: 75%;
-      font-size: 20px;
+      font-size: 14px;
       text-align: unset;
       padding-left: 1rem;
    }
@@ -82,7 +82,7 @@
       border: 18px #0065fc solid;
       border-radius: 18px;
       height: 100%;
-      font-size: 18px;
+      font-size: 14px;
    }
    
    .texte_bouton {
@@ -124,7 +124,7 @@
 }
 
 .cta_filtres {
-   font-size: 15px;
+   font-size: 14px;
    font-weight: 800;
    display: inline-block;
    text-align: center;
@@ -199,7 +199,7 @@
 }
 
 .titre_en_tete_populaire  {
-  font-size: 16px;
+  font-size: 14px;
 }
 
  .galerie_cartes_populaires {
@@ -219,7 +219,7 @@
  }
  
  .nom_tarif {
-   font-size: 15px;
+   font-size: 14px;
 }
 
  .prix_nuit_populaires {
@@ -240,6 +240,9 @@
    padding-bottom: 1rem;
 }
 
+.titre_activites {
+   font-size: 14px;
+}
 /*--DROITE--*/
 
 
