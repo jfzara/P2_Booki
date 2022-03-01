@@ -4,7 +4,7 @@
 .container_hebergements_populaires {
   display: flex;
   flex-direction: row;
-  gap: 3rem;
+  gap: 1.9rem;
   border-radius: 20px;
   margin-bottom: 4rem;
 }
@@ -19,8 +19,8 @@
   border-radius: 20px;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1rem;
   background: #F2F2F2;
   width: 65%;
 }
@@ -28,7 +28,7 @@
  .galerie_figures {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 1.9rem;
   flex-wrap: wrap;
   margin-top: 3rem;
   margin-bottom: 1rem;
@@ -75,7 +75,9 @@
   padding-bottom: 0.2rem;
   padding-left: 0.1rem;
 }
-
+.etoiles_populaires {
+  margin-top: auto;
+}
 .fas.fa-star.star-bleu {
   color: #0065fc;
 }
@@ -91,6 +93,7 @@
   font-weight: 700;
   text-align: start;
   background: #F2F2F2;
+  cursor: pointer;
 }
 
  
@@ -101,11 +104,11 @@
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  width: 25%;
+  width: 30%;
   background-color: #F2F2F2;
   padding-top: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-right: 1.9rem;
+  padding-left: 1.9rem;
 }
  
 .en_tete_populaires {
@@ -113,8 +116,6 @@
   flex-direction: row;
   justify-content: space-between;
   font-weight: bold;
-  margin-left: 50px;
-  padding-right: 2rem;
 }
 
  .fa-chart-line {
@@ -126,8 +127,6 @@
   flex-direction: column;
   align-items: center;
   margin-top: 2.9rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
  
 .cartes_populaires {
@@ -142,7 +141,6 @@
 .figures_populaires {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   border-radius: 20px;
   width: 100%;
 }
@@ -150,7 +148,6 @@
 .infos_populaires {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background-color: white;
   padding-bottom: 0.5rem;
   border: 3px white solid;
@@ -161,6 +158,16 @@
 .prix_nuit_populaires {
   display:inline-block;
   line-break: auto;
+}
+
+.etoiles_populaires {
+  display: flex;
+  margin-top: auto;
+}
+
+.nom_tarif {
+padding-top: 0.5rem;
+
 }
 
 .images_cartes_populaires {

@@ -32,6 +32,7 @@
   background-position: 98% 0%;
   color: #ffff;
   border-color: transparent;
+  cursor: pointer;
 }
 
 .cta_filtres>a, a:visited {

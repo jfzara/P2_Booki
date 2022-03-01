@@ -1,44 +1,47 @@
 /*--------SECTION ACTIVITES--------*/    
 
 
-.titre_activites {
-  font-size: 17px;
-}
-
 #container_activites {
   display: flex;
   flex-direction: row;
-  gap: 4%;
   border-radius: 20px;
   margin-top: 3rem;
-  width: 100%;
+  gap: 2rem;
+  height: 37rem;
 }
-  
+
+#container_activites a {
+  box-shadow: 5px 5px 15px lightgrey; 
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#container_activites img {
+  border-radius: 20px 20px 0 0;      /*propriétés pour toutes les images-activités*/
+  object-fit: cover;
+  width: 100%;
+}                                 
+#container_activites article {
+  height: 100%;
+}    
 
 /*--------BLOCS--------*/  
 
 
-.bloc_gauche {
+.bloc_gauche, .bloc_droite {
   display: flex;
   flex-direction: row;
+  gap: 2rem;
   width: 50%;
   height: 37rem;
 }
-
-.bloc_droite {
-  display: flex;
-  flex-direction: row;
-  width: 50%;
-  height: 37rem;
-}
-
 
 .moitie_gauche {
   width: 47%;
   box-shadow: 5px 5px 15px lightgrey; 
   border-radius: 20px;
-  margin-right: 3rem;
   height: 37rem;
+                     /* carte-activités "verticale"*/
 }
 
 .moitie_droite {
@@ -50,88 +53,78 @@
   height: 37rem;
 }
 
+.nom_activite {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  
+}
 
 /*--------CARTES (GENERAL)--------*/  
 
 
-#container_activites article {
-  box-shadow: 5px 5px 15px lightgrey; 
-  border-radius: 20px;
-}
 
-.nom_activite {
-  padding-left: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
 
-#container_activites img {
-  border-radius: 20px 20px 0 0;
-  object-fit: cover;
-}
 
 
 /*--------CARTES GAUCHE--------*/  
 
+.moitie_gauche  {
+ height: 100%;                                             /*carte1*/
+}         
 
+.moitie_droite .carte_activite:nth-of-type(1) {
+  height: 55%;                                             /*carte2*/
+}                                           
 
-.bloc_gauche .moitie_gauche .image_activite {
-  width: 100%;
-  height: 91%;
-}
+.moitie_droite .carte_activite:nth-of-type(2) {
+  height: 39%;                                             /*carte3*/
+ }                                                               
 
-.bloc_gauche .moitie_droite article:nth-of-type(1) {
-  width: 100%;
-  height: 60%;
-}
-.bloc_gauche .moitie_droite article:nth-of-type(1) img {
-  width: 100%;
-  height: 86%;
-}
-
+  
 /*------------------------------*/
 
+.moitie_gauche img {
+  height: 90%; 
+  width: 100%;                                               /*image carte1*/
+}         
 
-.bloc_gauche .moitie_droite article:nth-of-type(1) {
-  margin-bottom: 3rem;
-}
-.bloc_gauche .moitie_droite article:nth-of-type(2) {
-  width: 100%;
-  height: 30%;
- 
-}
+.moitie_droite .carte_activite:nth-of-type(1) img {
+  height: 81%;                                             /*image carte2*/
+}                                           
 
-.bloc_gauche .moitie_droite article:nth-of-type(2) img {
-  width: 100%;
-  height: 74%;
-}
-    
-
+.moitie_droite .carte_activite:nth-of-type(2) img {
+  height: 74%;                                         /*image carte3*/
+}                                                               
 
 
 /*--------CARTES DROITE--------*/  
 
 
-
-.bloc_droite .moitie_gauche img {
-  width: 100% ;
-  height: 91%;
-}
+.moitie_gauche  {
+    height: 100%;                               /*carte4*/
+}         
 
 .bloc_droite .moitie_droite .carte_activite:nth-of-type(1) {
-  height: 32%;
-}
+  height: 42%;                                                             /*carte5*/
+}                                           
 
-.bloc_droite .moitie_droite article:nth-of-type(1) img {
-  width: 100% ;
-  height: 74%;
-}
- 
 .bloc_droite .moitie_droite .carte_activite:nth-of-type(2) {
-  height: 58%;
-}
- 
-.bloc_droite .moitie_droite article:nth-of-type(2) img {
-  width: 100% ;
-  height: 85%;
-}
+  height: 52%;                                                            /*carte6*/
+}                                                               
+
+
+/*------------------------------*/
+
+
+.moitie_gauche img {
+  height: 90%;    
+  width: 100%;                                         /*image carte4*/
+}         
+
+.bloc_droite .moitie_droite .carte_activite:nth-of-type(1) img {
+  height: 75%;                                                        /*image carte5*/
+}                                           
+
+.bloc_droite .moitie_droite .carte_activite:nth-of-type(2) img {
+  height: 81%;                                                        /*image carte6*/
+}                                                               

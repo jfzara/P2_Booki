@@ -29,13 +29,13 @@ header a,footer a,.container_hebergements_populaires a{
 } 
 
 h1 {
-   font-size: 14px;
+   font-size: 20px;
    font-weight: 700;
 }
 
 h2 {
    font-weight: 700;
-   font-size: 14px;
+   font-size: 18px;
 }
 
 h3 {
@@ -46,6 +46,10 @@ h3 {
 .titre2_accueil, p {
    font-weight: normal;
    font-size: 14px;
+}
+
+a { 
+   cursor: pointer;
 }
 
 /*--ICÔNE INFORMATION--*/
@@ -60,7 +64,7 @@ h3 {
 .icone_info {
    text-align: center;
    color: #0065fc;
-   font-size: 1.3em;
+   font-size: 14px;
    border: 1px lightgrey solid; 
    border-radius: 50px;
    width: 1.3%;

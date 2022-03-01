@@ -15,12 +15,12 @@ h1 {
    justify-content: center;
    align-items: baseline;
    flex-wrap: nowrap;
-   font-size: 14px;
+   font-size: 20px;
    padding-top: 20px;
 }
 
 h2 {
-   font-size: 14px;
+   font-size: 18px;
 }
 
 .titre2_accueil {
@@ -67,7 +67,12 @@ nav {
    padding-left: 0; /*permet de centrer le logo au milieu des deux ancres du menu*/
 }
     
-    
+.icone_info {
+   padding: 2px 7px 2px 7px;
+}
+
+
+
 /*--FORMULAIRE--*/
 
 
@@ -211,6 +216,10 @@ nav {
    width: 100%;
    margin-bottom: 2rem;
 }
+.afficher_plus {
+   
+   background: white;
+ }
 
 /*--LES PLUS POPULAIRES--*/
 
@@ -220,6 +229,8 @@ nav {
    background: #F2F2F2;
    border-radius: 0;
    width: 100%;
+   padding-left: 0;
+   padding-right: 0;
 }
 
 .en_tete_populaires {
@@ -227,13 +238,18 @@ nav {
    flex-direction: row;
    justify-content: space-between;
    font-weight: bold;
-   margin-left: 1rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
 }
+               
+.titre_en_tete_populaire {
+   font-size: 18px;
+}              
 
 .galerie_cartes_populaires {
    display: flex;
    flex-direction: column;
-   margin-top: 2.9rem;
+   margin-top: 2.15rem;
    padding-left: 0;
    padding-right: 0;
  }
@@ -258,159 +274,89 @@ nav {
    height: 10rem;
  }
   
- 
+
+
 /*--ACTIVITES--*/
 
 
 #container_activites {
-   display: flex;
    flex-direction: column;
    justify-content: space-between;
-   border-radius: 20px;
-   width: 100%;
-}
-
-.titre_activites {
-   font-size: 14px;
-}
-
+   gap: 0;
+   height: fit-content;
+ }
+  
+                       
+ #container_activites .carte_activite {
+   height: 15rem;
+   margin-bottom: 4rem;
+ }    
+ 
  /*--------BLOCS--------*/  
  
  
- .bloc_gauche {
-   display: flex;
+ .bloc_gauche, .bloc_droite {
    flex-direction: column;
-   width: 100%;
-   height: 50rem;
- }
- 
- .bloc_droite {
-   display: flex;
-   flex-direction: column;
-   width: 100%;
-   height: 50rem;
- }
- 
- 
- .moitie_droite{
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
    width: 100%;
    height: 50%;
+   gap: 0;
  }
  
- .moitie_gauche{
-   height: 31%;
+ .moitie_gauche {
+   width: 100%;
+   height: 50%;
+}
+ 
+ .moitie_droite {
+   width: 100%;
+   height: 50%;
+}
+ 
+ .nom_activite {
+   padding-left: 1rem;
+   padding-top: 1rem;
+   
  }
-
-
- #container_activites img {
-   border-radius: 20px 20px 0 0;
-   object-fit: cover;
- }
+    
+ .carte_activite img {
+   height: 76%; 
+   width: 100%;                                             /*image carte2*/
+ }                                           
  
+           
  
- /*--------CARTES (GENERAL)--------*/  
- 
-.bloc_gauche .moitie_gauche {
-    height: 31%;
-    width: 100%;
-    margin-bottom: 2.5rem;
- }
- 
- .bloc_gauche .moitie_droite .carte_activite:nth-of-type(1) {
-  height: 52%;
- 
- }
- 
- .bloc_gauche .moitie_droite .carte_activite:nth-of-type(2) {
-  height: 52%;
-  
-   }
+/*-- FOOTER--*/
 
-
-.bloc_droite .carte_activite {
-  margin-bottom: 2.5rem;
-}
-
-.bloc_droite .moitie_gauche {
-   height: 31%;
-   width: 100%;
-}
-
-.bloc_droite .moitie_droite .carte_activite:nth-of-type(1) {
- height: 52%;
-}
-
-.bloc_droite .moitie_droite .carte_activite:nth-of-type(2) {
- height: 52%;
+footer { 
+   
+   flex-direction: column;
 }
 
 
-
- /*--------IMAGES CARTES (GENERAL)--------*/  
-
-
-
- .bloc_gauche .moitie_gauche .image_activite {
-   width: 100%;
-   height: 75%;
-}
-
-.bloc_gauche .moitie_droite article:nth-of-type(1) img {
-   width: 100%;
-   height: 70%;
-}
-
-.bloc_gauche .moitie_droite article:nth-of-type(2) img {
-   width: 100%;
-   height: 70%;
-}
-
-
-
-
-.bloc_droite .moitie_gauche img {
-   width: 100%;
-   height: 72%;
-}
-
-.bloc_droite .moitie_droite article:nth-of-type(1) img {
-   width: 100%;
-   height: 68%;
-}
-
-.bloc_droite .moitie_droite article:nth-of-type(2) img {
-   width: 100%;
-   height: 70%;
-}
-
-
-/*--FOOTER--*/
-
-
-footer {
+.blocs_footer { 
    display: flex;
-   flex-direction: column;  
-   justify-content: center;
-   align-items: flex-start;
-   padding-right:45px;  
-   padding-left: 20px;
-}
-
-.blocs_footer {
-   min-width:250px;
+   flex-direction: column;
+   justify-content: space-around; 
+   padding-left: 1rem;
 }
 
 .titres_footer {
-   min-width:250px;
-   padding-right:45px;
-   font-size: 14px;
+   font-size: 16px;
 }
-    
-footer a {
-   font-size: 14px;
+
+.ancres_footer {
+   line-height: 2rem;
+   font-weight: 400;
+   font-size: 16px;
 }
+ 
+
+
+
+
+
+
+
+
 
 }
