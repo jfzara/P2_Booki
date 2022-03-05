@@ -53,12 +53,12 @@ h1 {
 }
 
 .titre2_accueil {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 
 h2 {
-   font-size: 18px;
+   font-size: 17px;
 }
 
 .icone_info {
@@ -81,7 +81,7 @@ h2 {
    
    .texte_formulaire {
       width: 75%;
-      font-size: 14px;
+      font-size: 15px;
       text-align: unset;
       padding-left: 1rem;
    }
@@ -91,7 +91,7 @@ h2 {
       border: 18px #0065fc solid;
       border-radius: 18px;
       height: 100%;
-      font-size: 14px;
+      font-size: 15px;
    }
    
    .texte_bouton {
@@ -133,7 +133,7 @@ h2 {
 }
 
 .cta_filtres {
-   font-size: 14px;
+   font-size: 15px;
    font-weight: 800;
    display: inline-block;
    text-align: center;
@@ -210,7 +210,7 @@ h2 {
  }
 
 .titre_en_tete_populaire  {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .fa-chart-line {
@@ -234,7 +234,7 @@ h2 {
  }
  
  .nom_tarif {
-   font-size: 18px;
+   font-size: 17px;
 }
 
  .prix_nuit_populaires {

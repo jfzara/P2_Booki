@@ -8,7 +8,9 @@
   border-radius: 20px;
   margin-bottom: 4rem;
 }
-
+.container_hebergements_populaires p {
+  font-size: 15px;
+}
  
 /*--------HEBERGEMENTS--------*/
 
@@ -89,7 +91,7 @@
 .afficher_plus {
   border: none;
   font-family: "Raleway";
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   text-align: start;
   background: #F2F2F2;
@@ -118,8 +120,11 @@
   font-weight: bold;
 }
 
+.titre_en_tete_populaires {
+  font-size: 17px;
+}
  .fa-chart-line {
-  font-size: 16px;
+  font-size: 17px;
  }
 
 .galerie_cartes_populaires {
@@ -166,8 +171,7 @@
 }
 
 .nom_tarif {
-padding-top: 0.5rem;
-
+  padding-top: 0.5rem;
 }
 
 .images_cartes_populaires {

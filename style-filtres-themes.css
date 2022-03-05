@@ -11,6 +11,10 @@
   margin-top: 3%;
 }
  
+.titre_container_filtres {
+  font-size: 15px;
+  font-weight: 800;
+}
 
 .cta_filtres {
   font-size: 15px;

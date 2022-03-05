@@ -20,17 +20,17 @@ h1 {
 }
 
 h2 {
-   font-size: 18px;
+   font-size: 17px;
 }
 
 .titre2_accueil {
    font-weight: normal;
-   font-size: 14px;
+   font-size: 15px;
 }
 
 h3 {
    width: 100%;
-   font-size: 14px;
+   font-size: 15px;
 }
 
 
@@ -54,7 +54,7 @@ nav {
    border-top: 2px white solid;
    border-bottom: 2px white solid;
    width: 50%;
-   font-size: 14px;
+   font-size: 15px;
 }
 
 .ancre_menu:hover {
@@ -89,7 +89,7 @@ nav {
 
 .texte_formulaire {
    width: 75%;
-   font-size: 14px;
+   font-size: 15px;
    text-align: unset;
    padding-left: 1rem;
 }
@@ -99,7 +99,7 @@ nav {
    border: 18px #0065fc solid;
    border-radius: 18px;
    height: 100%;
-   font-size: 18px;
+   font-size: 17px;
    
 }
 
@@ -117,7 +117,7 @@ nav {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   font-size: 14px;
+   font-size: 15px;
 }
 
 
@@ -217,8 +217,7 @@ nav {
    margin-bottom: 2rem;
 }
 .afficher_plus {
-   
-   background: white;
+      background: white;
  }
 
 /*--LES PLUS POPULAIRES--*/
@@ -243,7 +242,7 @@ nav {
 }
                
 .titre_en_tete_populaire {
-   font-size: 18px;
+   font-size: 17px;
 }              
 
 .galerie_cartes_populaires {
