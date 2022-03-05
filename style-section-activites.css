@@ -20,7 +20,8 @@
   border-radius: 20px 20px 0 0;      /*propriétés pour toutes les images-activités*/
   object-fit: cover;
   width: 100%;
-}                                 
+}                            
+
 #container_activites article {
   height: 100%;
 }    
@@ -56,7 +57,6 @@
 .nom_activite {
   padding-left: 1rem;
   padding-top: 1rem;
-  
 }
 
 /*--------CARTES (GENERAL)--------*/  
@@ -78,7 +78,7 @@
 
 .moitie_droite .carte_activite:nth-of-type(2) {
   height: 39%;                                             /*carte3*/
- }                                                               
+}                                                               
 
   
 /*------------------------------*/
@@ -101,7 +101,7 @@
 
 
 .moitie_gauche  {
-    height: 100%;                               /*carte4*/
+  height: 100%;                               /*carte4*/
 }         
 
 .bloc_droite .moitie_droite .carte_activite:nth-of-type(1) {

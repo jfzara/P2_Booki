@@ -3,7 +3,6 @@
 @media screen and  (min-width: 768px) and (max-width: 992px) {
 
  
-
 body {
    display: flex;
    flex-direction: column;
@@ -53,7 +52,7 @@ h1 {
 }
 
 .titre2_accueil {
-    font-size: 17px;
+   font-size: 17px;
 }
 
 
@@ -65,42 +64,43 @@ h2 {
    padding: 2px 5px 2px 5px;
 }
 
+
 /*--FORMULAIRE--*/
    
    
-   .formulaire {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      margin-top: 2rem;
-   }
-   
-   .icone_localisation {
-      width: 10%;
-   }
-   
-   .texte_formulaire {
-      width: 75%;
-      font-size: 15px;
-      text-align: unset;
-      padding-left: 1rem;
-   }
-   
-   .bouton_formulaire {
-      width: 11%;
-      border: 18px #0065fc solid;
-      border-radius: 18px;
-      height: 100%;
-      font-size: 15px;
-   }
-   
-   .texte_bouton {
-      display: none;
-   }
+.formulaire {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   margin-top: 2rem;
+}
 
-   .bouton_formulaire i {
-      display: inline-block;
-    }       /*icône recherche*/
+.icone_localisation {
+   width: 10%;
+}
+
+.texte_formulaire {
+   width: 75%;
+   font-size: 15px;
+   text-align: unset;
+   padding-left: 1rem;
+}
+
+.bouton_formulaire {
+   width: 11%;
+   border: 18px #0065fc solid;
+   border-radius: 18px;
+   height: 100%;
+   font-size: 15px;
+}
+
+.texte_bouton {
+   display: none;
+}
+
+.bouton_formulaire i {
+   display: inline-block;
+   }       /*icône recherche*/
 
 
 
@@ -184,6 +184,7 @@ h2 {
    padding-left: 1rem;
    padding-right: 1rem;
  }
+
  .galerie_figures {
    margin-bottom: 0;
 }
@@ -200,9 +201,7 @@ h2 {
 .populaires {
    width: 100%;
    background-color: white;
-
 }
-
 
  .en_tete_populaires {
    margin-left: 0;
@@ -217,10 +216,10 @@ h2 {
    font-size: 19px;
 }
  
- .galerie_cartes_populaires {
+.galerie_cartes_populaires {
    padding-left: 0;
    padding-right: 1rem;
- }
+}
 
  .infos_populaires {
    display: flex;
@@ -231,7 +230,7 @@ h2 {
    border: 3px white solid;
    border-radius: 0 20px 20px 0;
    width: 60%;
- }
+}
  
  .nom_tarif {
    font-size: 17px;
@@ -240,12 +239,12 @@ h2 {
  .prix_nuit_populaires {
    display:inline-block;
    line-break: auto;
- }
+}
  
  .images_cartes_populaires {
    width: 60%;
    height: 15rem;
- }
+}
 
 
 /*--ACTIVITES--*/
@@ -254,9 +253,11 @@ h2 {
   
    padding-top: 0.5rem;
    padding-bottom: 1rem;
-   
- }
+
+}
 
 .moitie_droite .carte_activite:nth-of-type(1) {
    height: 55%;                                             /*carte2*/
- }              
+}            
+
+}

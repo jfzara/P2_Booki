@@ -77,9 +77,11 @@
   padding-bottom: 0.2rem;
   padding-left: 0.1rem;
 }
+
 .etoiles_populaires {
   margin-top: auto;
 }
+
 .fas.fa-star.star-bleu {
   color: #0065fc;
 }
@@ -123,9 +125,10 @@
 .titre_en_tete_populaires {
   font-size: 17px;
 }
+
  .fa-chart-line {
   font-size: 17px;
- }
+}
 
 .galerie_cartes_populaires {
   display: flex;
