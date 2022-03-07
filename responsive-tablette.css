@@ -180,7 +180,7 @@ h2 {
 #hebergements {
    display: flex;
    flex-direction: column;
-   width: 100%;
+   width: 97%;
    padding-left: 1rem;
    padding-right: 1rem;
  }
@@ -199,8 +199,9 @@ h2 {
 
 
 .populaires {
-   width: 100%;
+   width: 93%;
    background-color: white;
+   margin-left: 0.5rem;
 }
 
  .en_tete_populaires {
@@ -259,5 +260,7 @@ h2 {
 .moitie_droite .carte_activite:nth-of-type(1) {
    height: 55%;                                             /*carte2*/
 }            
+
+
 
 }
