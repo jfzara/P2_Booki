@@ -178,7 +178,7 @@
 }
 
 .images_cartes_populaires {
-  border: 5px white solid;
+  border: 4px white solid;
   border-radius: 20px 0 0 20px;
   width: 34%;
   object-fit: cover;
